@@ -1,22 +1,75 @@
 aid: lightera
-name: Lightera
-description: 'Lightera is a company surfaced as a portfolio company of kleiner-perkins and added to the
-  API Evangelist network as a stub for enrichment. Sector: hardtech. This profile is a lead awaiting the
-  enrichment pipeline.'
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/lightera.png
+name: Lightera Networks
+description: 'Lightera Networks Inc. was a Cupertino, California optical networking equipment startup
+  backed by Kleiner Perkins. It built optical core switching systems for carrier transport networks
+  during the late-1990s buildout of long-haul optical infrastructure. Ciena Corporation acquired Lightera
+  Networks together with Marlborough, Massachusetts-based Omnia Communications Inc. for $980 million in
+  stock in 1999, and the Lightera technology and team were absorbed into Ciena''s optical core switching
+  line. The company no longer operates as an independent entity and never published a public API,
+  developer portal, or machine-readable interface; this profile is retained as a historical record of
+  the Kleiner Perkins portfolio and is not an active API provider. NOTE: unrelated to the present-day
+  lightera.com, a rebrand of Furukawa Electric / OFS optical fiber manufacturing (see x-disambiguation).'
 url: https://raw.githubusercontent.com/api-evangelist/lightera/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - kleiner-perkins
-x-tier: stub
-x-tier-reason: portfolio-lead
+x-tier: historical
+x-tier-reason: acquired-1999-no-api-surface
+x-status: acquired
+x-acquired-by: Ciena Corporation
+x-acquired-year: 1999
+x-acquisition-value: $980 million in stock (joint acquisition with Omnia Communications Inc.)
+x-acquisition-source: https://en.wikipedia.org/wiki/Ciena
+x-headquarters: Cupertino, California, United States
+x-enrichment:
+  last_run: '2026-07-19'
+  result: no-api-surface
+  artifacts: none
+  rationale: 'Entity is defunct (acquired by Ciena in 1999) and published no API, developer portal,
+    SDK, or specification. No artifacts were generated; fabricating any would be unfaithful.'
+x-disambiguation:
+- name: Lightera (Furukawa Electric / OFS)
+  url: https://lightera.com/
+  relationship: unrelated-name-collision
+  note: 'Optical fiber and connectivity manufacturer headquartered in Norcross, Georgia; a unification
+    and rebrand of Furukawa Electric, OFS, and Furukawa Electric LatAm. Not venture-backed, not the
+    Kleiner Perkins portfolio company, and publishes no developer or API surface (probed 2026-07-19:
+    /developers, /developer, /api, /docs, /llms.txt, /.well-known/security.txt and
+    /.well-known/api-catalog all returned HTTP 404).'
+- name: lightera.ai
+  url: https://lightera.ai/
+  relationship: unknown-name-collision
+  note: 'Placeholder Squarespace site reading "We are under construction" as of 2026-07-19; no
+    identifying company information published.'
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
 - Hardtech
+- Optical Networking
+- Telecommunications
+- Networking Equipment
+- Acquired
+- Historical
 apis: []
+common:
+- type: Acquirer
+  name: Ciena Corporation
+  url: https://www.ciena.com/
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
