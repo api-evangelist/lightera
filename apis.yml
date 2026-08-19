@@ -54,7 +54,7 @@ x-disambiguation:
   relationship: unknown-name-collision
   note: 'Placeholder Squarespace site reading "We are under construction" as of 2026-07-19; no
     identifying company information published.'
-specificationVersion: '0.20'
+specificationVersion: '0.23'
 created: '2026-07-17'
 modified: '2026-07-19'
 tags:
