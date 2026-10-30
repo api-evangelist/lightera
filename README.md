@@ -64,29 +64,28 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Lightera Networks Inc. was a Cupertino, California optical networking equipment startup backed by
-Kleiner Perkins. It built optical core switching systems for carrier transport networks during the
-late-1990s buildout of long-haul optical infrastructure.
+> **Acquired or rebranded.** This company was acquired, merged or renamed. Its API, if it still exists, is offered under another name. This profile is kept as a historical record and is not maintained or rated.
 
-Ciena Corporation acquired Lightera Networks together with Marlborough, Massachusetts-based Omnia
-Communications Inc. for $980 million in stock in 1999. The Lightera technology and team were absorbed
-into Ciena's optical core switching line.
+Lightera Networks Inc. was a Cupertino, California optical networking equipment startup backed by Kleiner Perkins. It built optical core switching systems for carrier transport networks during the late-1990s buildout of long-haul optical infrastructure. Ciena Corporation acquired Lightera Networks together with Marlborough, Massachusetts-based Omnia Communications Inc. for $980 million in stock in 1999, and the Lightera technology and team were absorbed into Ciena's optical core switching line. The company no longer operates as an independent entity and never published a public API, developer portal, or machine-readable interface; this profile is retained as a historical record of the Kleiner Perkins portfolio and is not an active API provider. NOTE: unrelated to the present-day lightera.com, a rebrand of Furukawa Electric / OFS optical fiber manufacturing (see x-disambiguation).
 
-- **Status:** acquired (1999)
-- **Acquired by:** [Ciena Corporation](https://www.ciena.com/)
-- **Backed by:** kleiner-perkins
-- **Sector:** hardtech / optical networking
+**Areas:** Company · Hardtech · Optical Networking · Telecommunications · Networking Equipment · Acquired · Historical
 
-## No API surface
+## Lightera Networks on APIs.io (historical record)
 
-This entity is defunct and never published a public API, developer portal, SDK, or machine-readable
-interface. The enrichment pipeline was run on 2026-07-19 and produced **no artifacts** — there is
-nothing to harvest, and fabricating any would be unfaithful to the record. The profile is retained
-as a historical record of the Kleiner Perkins portfolio.
+Everything profiled for Lightera Networks is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/lightera/](https://apis.io/providers/lightera/)** — or go straight to one of the APIs or properties below.
 
-## Name collisions — this is not the same company
+## API Evangelist rating
 
-| Name | URL | Relationship |
-|---|---|---|
-| Lightera (Furukawa Electric / OFS) | https://lightera.com/ | **Unrelated.** Optical fiber and connectivity manufacturer in Norcross, Georgia — a rebrand unifying Furukawa Electric, OFS, and Furukawa Electric LatAm. Not venture-backed. Probed 2026-07-19: `/developers`, `/developer`, `/api`, `/docs`, `/llms.txt`, `/.well-known/security.txt`, `/.well-known/api-catalog` all returned HTTP 404 — no developer surface. |
-| lightera.ai | https://lightera.ai/ | **Unknown.** Placeholder Squarespace "under construction" page as of 2026-07-19. |
+**Not rated** — this company is recorded as acquired or rebranded, so no score is published. If it is in fact operating, say so on this repository and it will be re-profiled.
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Lightera Networks: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/lightera/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
